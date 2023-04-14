@@ -44,7 +44,7 @@ function App() {
       ) : (
         <>
           <ContainerList containers={containers} onContainerClick={handleContainerClick} />
-          <button onClick={handleShowAdmin}>Admin login</button>
+          <button className="admin-login-button" onClick={handleShowAdmin}>Admin login</button>
         </>
       )}
     </div>
